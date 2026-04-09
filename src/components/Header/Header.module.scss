@@ -1,0 +1,101 @@
+// @use "sass:color";
+// @use "../../styles/variables" as *;
+// @use "../../styles/mixins" as *;
+
+.header {
+  // max-width: 1440px;
+  // margin-left: 10%;
+  // margin-right: 10%;
+  // margin: 0 auto;
+  // padding: 0 1rem;
+  background-color: #FDFDFD ;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  // width: 100%;
+
+  &__container {    
+    max-width: 1440px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    // margin: auto;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+  }
+  &__topcontainer {
+    height: 55px;
+  }
+}
+
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: $spacing-md $spacing-lg;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+
+//   @include respond-to(sm) {
+//     flex-wrap: wrap;
+//     gap: $spacing-md;
+//   }
+// }
+
+// .logo {
+//   a {
+//     color: $light;
+//     font-size: 1.5rem;
+//     font-weight: bold;
+//     text-decoration: none;
+//     transition: opacity 0.3s;
+
+//     &:hover {
+//       opacity: 0.8;
+//     }
+//   }
+// }
+
+// .nav {
+//   display: flex;
+//   gap: $spacing-lg;
+
+//   @include respond-to(sm) {
+//     order: 3;
+//     width: 100%;
+//     justify-content: center;
+//     gap: $spacing-xl;
+//   }
+// }
+
+// .navLink {
+//   color: $light;
+//   text-decoration: none;
+//   transition: color 0.3s;
+//   position: relative;
+
+//   &:hover {
+//     color: $primary;
+//   }
+
+//   &.active {
+//     color: $primary;
+
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       bottom: -4px;
+//       left: 0;
+//       right: 0;
+//       height: 2px;
+//       background-color: $primary;
+//     }
+//   }
+// }
+
+// .actions {
+//   @include respond-to(sm) {
+//     order: 2;
+//   }
+// }

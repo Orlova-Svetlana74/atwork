@@ -1,0 +1,40 @@
+// @use "sass:color";
+// @use "../../../styles/variables" as *;
+// @use "@/styles/variables.scss" as *;
+
+.wrapper {
+//   margin-bottom: $spacing-md;
+  width: 100%;
+}
+
+.label {
+  display: block;
+//   margin-bottom: $spacing-xs;
+  font-weight: 500;
+//   color: $dark;
+}
+
+.input {
+  width: 100%;
+//   padding: $spacing-sm;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  
+  &:focus {
+    outline: none;
+    // border-color: $primary;
+  }
+  
+//   &.error {
+//     // border-color: $danger;
+//   }
+}
+
+.errorMessage {
+  display: block;
+//   margin-top: $spacing-xs;
+//   color: $danger;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,33 @@
+// @import './reset';
+// @import './variables';
+// @import './mixins';
+// @use "@/styles/variables.scss" as *;
+// @use "@/styles/mixins.scss" as *;
+// @use "@/styles/reset.scss" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  // font-size: $font-size-base;
+  // line-height: $line-height-base;
+  // color: $dark;
+  background-color: #F4F4F4;
+}
+
+a {
+  text-decoration: none;
+  // color: $primary;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  cursor: pointer;
+}

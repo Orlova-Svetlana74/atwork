@@ -28,6 +28,10 @@
   margin-bottom: 0.5rem;
   position: relative;
   display: inline-block;
+
+  @media (max-width: 375px) {
+    font-size: 24px;
+  }
 }
 
 .subtitle {
